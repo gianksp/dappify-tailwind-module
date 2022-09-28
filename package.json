@@ -1,0 +1,26 @@
+{
+    "name": "dappify-tailwind-module",
+    "version": "1.0.1",
+    "description": "Dappify Tailwind Module",
+    "main": "dist/dappify-tailwind-module.min.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gianksp/dappify-tailwind-module.git"
+    },
+    "scripts": {
+        "start": "grapesjs-cli serve",
+        "build": "grapesjs-cli build",
+        "bump": "npm version patch -m 'Bump v%s'"
+    },
+    "keywords": [
+        "grapesjs",
+        "plugin"
+    ],
+    "devDependencies": {
+        "grapesjs-cli": "^2.0.0"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "css": "^3.0.0"
+    }
+}
